@@ -389,4 +389,11 @@
         <modifyDataType tableName="SESSIONS" columnName="LOCALE" newDataType="varchar(20)"></modifyDataType>
     </changeSet>
 
+    <changeSet id="27" author="aparrish">
+        <addNotNullConstraint columnDataType="varchar(20)"
+                              columnName="LOCALE"
+                              defaultNullValue="en_US"
+                              tableName="SESSIONS"/>
+    </changeSet>
+
 </databaseChangeLog>
