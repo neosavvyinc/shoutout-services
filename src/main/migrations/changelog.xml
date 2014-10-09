@@ -396,4 +396,8 @@
                               tableName="SESSIONS"/>
     </changeSet>
 
+    <changeSet id="28" author="aparrish">
+        <addDefaultValue tableName="SESSIONS" columnName="LOCALE" defaultValue="en_US"></addDefaultValue>
+    </changeSet>
+
 </databaseChangeLog>
