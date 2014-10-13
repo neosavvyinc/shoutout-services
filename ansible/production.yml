@@ -13,7 +13,7 @@
       nginxProxyToAddress: "0.0.0.0"
       nginxProxyToPort: "8090"
       apiBackendDNSName: "api.shoutoutwith.us"
-      adminContact: "aparrish@neosavvy.com"
+      adminContact: "admin@shoutoutwith.us"
       shoutoutUID: "ubuntu"
       shoutoutGID: "ubuntu"
       deploymentBranch: "master"
